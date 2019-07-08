@@ -9,7 +9,7 @@ body {
 	text-shadow: -1px -2px black;
 	position: relative;
 	transition: font-size 3s;
-	transition-timing-function: steps(3,end);
+	transition-timing-function: ease;
 }
 
 #firstname:hover {
@@ -24,6 +24,7 @@ div {
 	background-color: lightpink;
 	transition: left 5s;
 	transition-delay: 1s;
+	transition-timing-function: ease-in;
 }
 
 div:hover {
