@@ -1,0 +1,23 @@
+body {
+	margin: 0 auto;
+}
+
+.link:hover {
+	background-color: hotpink;
+}
+
+.header {
+	margin: 0;
+	transition: font-size 2s;
+}	
+
+.header:hover {
+	font-size: 30pt;
+}
+
+div {
+	background-color: lightblue;
+	padding-top: 50px;
+	margin-bottom: 20px;
+
+}
