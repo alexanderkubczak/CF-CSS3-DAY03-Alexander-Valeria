@@ -22,6 +22,7 @@ div {
 	border: 1px solid black;
 	border-radius: 15px;
 	padding: 5px;
+	margin: 5px 0;
 	font-size: 11pt;
 	position: relative;
 	left: 0;
@@ -31,8 +32,41 @@ div {
 	transition-timing-function: ease-in;
 }
 
+
 div:hover {
 	/*background-color: lightblue;*/
 	position: relative;
 	left: 250px;
 }
+
+#lastname {
+	background-color: lightgreen;
+	color: white;
+	font-weight: bold;
+	position: relative;
+	left: 0;
+	text-shadow: -1px -2px black;
+		
+	
+}
+
+#lastname:hover {
+	background-color: yellow;
+	transition-delay: 1s;
+	transition: background-color 5s;
+	transition-timing-function: steps(3,end);
+}
+
+
+#about {
+	background-color: lightgrey;
+	transition: text-transform;
+}
+
+#about:hover {
+	text-transform: uppercase;
+	transition-delay: 2s;
+}
+
+
+
