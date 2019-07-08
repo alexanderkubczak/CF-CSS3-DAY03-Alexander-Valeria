@@ -20,6 +20,9 @@ down td {
 	border: 1px solid black;
 }
 
+#test {
+	border-bottom: 3px solid black;
+}
 .right {
 	text-align: right;
 }
@@ -34,7 +37,6 @@ down td {
 .pad {
 	padding-left: 20px;
 }
-
 
 #line {
 	line-height: 10px;
